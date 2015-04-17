@@ -13,19 +13,7 @@ namespace hackathonStudent
         {
             // The root page of your application
             //Hello everyone!
-            MainPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-						new Label {
-							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-                }
-            };
+            MainPage = MainPage = new SignUpPage();
         }
 
         protected override void OnStart()
