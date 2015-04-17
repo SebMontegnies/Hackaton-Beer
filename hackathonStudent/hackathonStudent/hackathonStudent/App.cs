@@ -12,6 +12,7 @@ namespace hackathonStudent
         public App()
         {
             // The root page of your application
+            //Hello everyone!
             MainPage = new ContentPage
             {
                 Content = new StackLayout
