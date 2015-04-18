@@ -12,7 +12,7 @@ namespace Hackathon
         public App()
         {
             // The root page of your application
-            MainPage = new ContentPage
+            /*MainPage = new ContentPage
             {
                 Content = new StackLayout
                 {
@@ -24,7 +24,8 @@ namespace Hackathon
 						}
 					}
                 }
-            };
+            };*/
+            MainPage = new Login();
         }
 
         protected override void OnStart()
